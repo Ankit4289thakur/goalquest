@@ -1,0 +1,23 @@
+{
+  "name": "goalquest",
+  "version": "1.0.0",
+  "description": "Build habits, track progress, and visualize your success. A goal and habit tracking app with streak counter and photo gallery.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "goals",
+    "habits",
+    "tracking",
+    "productivity"
+  ],
+  "author": "Ankit Thakur",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {}
+}
